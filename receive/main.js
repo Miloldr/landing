@@ -11,11 +11,11 @@ function sendApiRequest(userId) {
     .then(response => response.json())
     .then(data => {
         console.log('Success:', data);
-        window.location.href = 'http://localhost:3000';
+        window.location.href = 'https://land-ashen.vercel.app/';
     })
     .catch((error) => {
         console.error('Error:', error);
-        window.location.href = 'http://localhost:3000';
+        window.location.href = 'https://land-ashen.vercel.app/';
     })
 }
 
