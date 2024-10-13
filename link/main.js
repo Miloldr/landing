@@ -25,7 +25,7 @@ window.onload = async () => {
         try {
             const client_id = '1281634718282027050';
             const client_secret = 'rqn_GIlF_m38KLoB06XuosD8hRrk_9LP';
-            const redirect_uri = 'http://localhost:3000/link/';
+            const redirect_uri = 'https://land-ashen.vercel.app/link/';
 
             const res = await fetch('https://discord.com/api/oauth2/token', {
                 method: 'POST',
