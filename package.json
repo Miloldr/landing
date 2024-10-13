@@ -1,0 +1,16 @@
+{
+  "name": "landing",
+  "version": "1.0.0",
+  "description": "Landing page for my project",
+  "main": "main.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "dev": "dead-server --port=3000 --host=localhost"
+  },
+  "author": "Simonas <simaszygis@gmail.com>",
+  "license": "MIT",
+  "dependencies": {
+    "dead-server": "^1.0.9",
+    "express": "^4.17.1"
+  }
+}
