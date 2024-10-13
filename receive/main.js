@@ -23,6 +23,8 @@ function onPageLoad() {
     const userId = localStorage.getItem('discord_user_id');
     if (userId) {
         sendApiRequest(userId);
+    } else {
+        window.location.href = 'https://land-ashen.vercel.app/';
     }
 }
 
