@@ -57,7 +57,7 @@ window.onload = async () => {
                 if (localStorage.getItem('discord_user_id') != userId) {
                     localStorage.setItem('discord_user_id', userId);
                     console.log('User ID stored:', userId);
-                    sendApiRequest(userId)
+                    //sendApiRequest(userId)
                     location.href = 'https://land-ashen.vercel.app/receive'
                 } else {
                     location.href = 'https://land-ashen.vercel.app/'
